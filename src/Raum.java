@@ -17,7 +17,25 @@ public class Raum {
 	
 	// Setter Methods
 	public void setAusgang(String name, boolean status){
-		this.name = name;
+		switch (name){
+		case "north":
+			if (status){
+				this.ausNord = true;
+			}
+		case "south":
+			if (status){
+				this.ausSued = true;
+			}
+		case "west":
+			if (status){
+				this.ausWest = true;
+			}
+		case "east":
+			if (status){
+				this.ausWest = true;
+			}
+		}
+		
 	}
 	
 	// Getter Methods
