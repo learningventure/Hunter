@@ -19,5 +19,20 @@ public class Raum {
 	public void setAusgang(String name, boolean status){
 		this.name = name;
 	}
+	
+	// Getter Methods
+	public String getAusgang(){
+		if (this.ausNord ){
+			return "north";
+		} else if (this.ausSued){
+			return "south";
+		} else if (this.ausWest ){
+			return "west";
+		} else if (this.ausOst){
+			return "ost";
+		} else {
+			return "Keine Ausgaenge gefunden";
+		}
+	}
 
 }

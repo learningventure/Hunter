@@ -4,19 +4,20 @@
  */
 public class Hunter {
 
-	/**
-	 * 
-	 */
+	static Raum draussen;
+	
 	public Hunter() {
 		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		draussen = new Raum("draussen");
+		draussen.setAusgang("north", true);
 	}
 
 }
