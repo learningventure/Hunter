@@ -14,5 +14,10 @@ public class Raum {
 	// Constructor
 	public Raum(String name) {
 	}
+	
+	// Setter Methods
+	public void setAusgang(String name, boolean status){
+		this.name = name;
+	}
 
 }
