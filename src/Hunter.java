@@ -6,6 +6,8 @@ public class Hunter {
 
 
 	public static void main(String[] args) {
+		
+		// Raum draussen Createn
 		Raum draussen = new Raum("draussen");
 		draussen.setAusgang("north", true);
 		System.out.println(draussen.getAusgang());
