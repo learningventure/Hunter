@@ -4,8 +4,6 @@
  */
 public class Hunter {
 
-
-
 	public Hunter() {
 		// TODO Auto-generated constructor stub
 	}
@@ -14,9 +12,9 @@ public class Hunter {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Spieler newGamer;
-		newGamer = new Spieler("Felix");
-		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newGamer);
+
+		Spieler newGamer = new Spieler("Felix");
+		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newGamer.getName());
 	}
 
 }
