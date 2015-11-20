@@ -11,8 +11,8 @@ public class Raum {
 	private boolean ausWest;
 	private boolean ausOst;
 	
-	public Raum() {
-		// TODO Auto-generated constructor stub
+	// Constructor
+	public Raum(String name) {
 	}
 
 }
