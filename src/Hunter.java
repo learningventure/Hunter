@@ -18,6 +18,7 @@ public class Hunter {
 
 		draussen = new Raum("draussen");
 		draussen.setAusgang("north", true);
+		System.out.println(draussen.getAusgang());
 	}
 
 }

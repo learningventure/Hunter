@@ -47,7 +47,7 @@ public class Raum {
 		} else if (this.ausWest ){
 			return "west";
 		} else if (this.ausOst){
-			return "ost";
+			return "east";
 		} else {
 			return "Keine Ausgaenge gefunden";
 		}
