@@ -12,10 +12,11 @@ public class Hunter {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
-		Spieler newGamer = new Spieler();
-		//newGamer.setName("Felix");
-		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newGamer.getName());
+		// create a new player
+		Spieler newPlayer = new Spieler();
+		// choose player name
+		newPlayer.setName("Felix");
+		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newPlayer.getName());
 	}
 
 }
