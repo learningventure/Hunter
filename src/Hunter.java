@@ -13,7 +13,8 @@ public class Hunter {
 	 */
 	public static void main(String[] args) {
 
-		Spieler newGamer = new Spieler("Felix");
+		Spieler newGamer = new Spieler();
+		//newGamer.setName("Felix");
 		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newGamer.getName());
 	}
 
