@@ -4,21 +4,17 @@
  */
 public class Hunter {
 
-	static Raum draussen;
-	
-	public Hunter() {
-		// TODO Auto-generated constructor stub
-		
-	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-
-		draussen = new Raum("draussen");
+		Raum draussen = new Raum("draussen");
 		draussen.setAusgang("north", true);
 		System.out.println(draussen.getAusgang());
+
+		// create a new player
+		Spieler newPlayer = new Spieler();
+		// choose player name
+		newPlayer.setName("Felix");
+		System.out.println("Der Name des ersten und einzigen Spielers ist: " + newPlayer.getName());
 	}
 
 }
