@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * @author Felix Bello, Gilles Brunner
  * @version 0.1
@@ -7,6 +9,9 @@ public class Hunter {
 
 
 	public static void main(String[] args) {
+		// Scanner for Reading Console Input
+		Scanner sc = new Scanner(System.in);
+		String eingabe;
 
 		// Raum draussen Createn
 		Raum draussen = new Raum("draussen");
@@ -41,7 +46,7 @@ public class Hunter {
 		// Printout the name and Position of the Players
 		System.out.println(msg.getActualPositionMessage(newPlayer));
 		System.out.println("In welche Richtung willst du dich Bewegen?");
-		
+		eingabe = (sc.nextLine());
 		
 	}
 
