@@ -11,7 +11,6 @@ public class Hunter {
 		// Raum draussen Createn
 		Raum draussen = new Raum("draussen");
 		draussen.setAusgang("north", true);
-		System.out.println(draussen.getAusgang());
 
 		// Raum Wohnzimmer Createn
 		Raum wohnZimmer = new Raum("wohnzimmer");
