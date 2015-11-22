@@ -41,10 +41,7 @@ public class Hunter {
 		System.out.println(welcome.getWelcomeMessage());
 		
 		// Printout the name and Position of the Players
-		System.out.println("Der Name des ersten und Spielers ist: " + newPlayer.getName());
-		System.out.println("Der Name des zweiten Spielers ist: " + playerTwo.getName());
-		System.out.println("Der zweite Spieler befindet sich momentan an folgendem Ort: " + playerTwo.getPosition());
-
+		System.out.println("Ihre aktuelle Position ist: " + newPlayer.getPosition());
 	}
 
 }
