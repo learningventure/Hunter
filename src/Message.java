@@ -5,7 +5,7 @@ public class Message {
 	
 	public Message() {
 		// TODO Auto-generated constructor stub
-		this.welcome = "Willkommen zum Spiel Hunter \n Es stehen folgende Räume zur Verfügung";
+		this.welcome = "Willkommen zum Spiel Hunter\nEs stehen folgende Räume zur Verfügung";
 	}
 
 	public String getWelcomeMessage(){
