@@ -28,8 +28,9 @@ public class Spieler{
         return this.name;
     }
 
-    // show the players position
+    // get Position of the player
     public String getPosition(){
 		return this.startPunkt;
 	}
+   
 }
