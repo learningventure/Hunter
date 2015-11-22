@@ -37,9 +37,12 @@ public class Hunter {
 		// Printout the Welcome Message
 		Message msg = new Message();
 		System.out.println(msg.getWelcomeMessage());
-		
+		System.out.println("draussen, wohnZimmer, badeZimmer, schlafZimmer, kueche");
 		// Printout the name and Position of the Players
 		System.out.println(msg.getActualPositionMessage(newPlayer));
+		System.out.println("In welche Richtung willst du dich Bewegen?");
+		
+		
 	}
 
 }
