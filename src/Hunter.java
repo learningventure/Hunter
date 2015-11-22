@@ -29,19 +29,17 @@ public class Hunter {
 		kueche.setAusgang("south", true);
 
 		// create a new player
-		Spieler newPlayer = new Spieler();
-		// choose player name
-		newPlayer.setName("Felix");
+		Spieler newPlayer = new Spieler("Felix", "draussen");
 
 		// create player with name and starting point
 		Spieler playerTwo = new Spieler("Gilles", "draussen");
 		
 		// Printout the Welcome Message
-		Message welcome = new Message();
-		System.out.println(welcome.getWelcomeMessage());
+		Message msg = new Message();
+		System.out.println(msg.getWelcomeMessage());
 		
 		// Printout the name and Position of the Players
-		System.out.println("Ihre aktuelle Position ist: " + newPlayer.getPosition());
+		System.out.println(msg.getActualPositionMessage(newPlayer));
 	}
 
 }
