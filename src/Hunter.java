@@ -33,6 +33,10 @@ public class Hunter {
 		Raum kueche = new Raum("kueche");
 		kueche.setAusgang("south", true);
 
+		// Raum Eingangshalle Createn
+		Raum eingangsHalle = new Raum("eingangshalle");
+		eingangsHalle.setAusgang("south", true);
+
 		// create a new player
 		Spieler newPlayer = new Spieler("Felix", "draussen");
 
@@ -48,6 +52,19 @@ public class Hunter {
 		System.out.println("In welche Richtung willst du dich Bewegen?");
 		eingabe = (sc.nextLine());
 		
+		switch (eingabe){
+		case "north":
+			// Set new position of Player
+			break;
+		case "south":
+			// Set new position of Player
+		case "east":
+			// Set new position of Player
+		case "west":
+			// Set new position of Player
+		default:
+			break;
+		}
 	}
 
 }
