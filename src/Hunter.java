@@ -37,6 +37,10 @@ public class Hunter {
 		// create player with name and starting point
 		Spieler playerTwo = new Spieler("Gilles", "draussen");
 		
+		// Printout the Welcome Message
+		Message welcome = new Message();
+		System.out.println(welcome.getWelcomeMessage());
+		
 		// Printout the name and Position of the Players
 		System.out.println("Der Name des ersten und Spielers ist: " + newPlayer.getName());
 		System.out.println("Der Name des zweiten Spielers ist: " + playerTwo.getName());
