@@ -9,6 +9,6 @@ public class Message {
 	}
 
 	public String getWelcomeMessage(){
-		return this.welcome ;
+		return this.welcome;
 	}
 }
