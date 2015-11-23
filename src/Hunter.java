@@ -54,6 +54,7 @@ public class Hunter {
 		
 		switch (eingabe){
 		case "north":
+			newPlayer.setPosition("eingangshalle");
 			// Set new position of Player
 			break;
 		case "south":
@@ -62,6 +63,8 @@ public class Hunter {
 			// Set new position of Player
 		case "west":
 			// Set new position of Player
+		case "quit":
+			System.exit(0);
 		default:
 			break;
 		}

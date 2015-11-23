@@ -32,5 +32,10 @@ public class Spieler{
     public String getPosition(){
 		return this.startPunkt;
 	}
+    
+    // set Position of the player
+	public void setPosition(String position) {
+		this.startPunkt = position;
+	}
    
 }
