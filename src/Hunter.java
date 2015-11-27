@@ -55,7 +55,7 @@ public class Hunter {
 		switch (eingabe){
 		case "north":
 			newPlayer.setPosition("eingangshalle");
-			// Set new position of Player
+			System.out.println("Sie haben soeben den Raum: " + newPlayer.getPosition() + " betretten!");
 			break;
 		case "south":
 			// Set new position of Player
