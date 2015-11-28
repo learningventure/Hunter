@@ -5,6 +5,11 @@
 
 public class Hunter {
 
+	// private Raum currentPosition;
+	//
+	// public Raum getPosition(){
+    //     currentPosition = getRaum();
+    // }
 
 	public static void main(String[] args) {
 
@@ -38,7 +43,7 @@ public class Hunter {
 		Spieler playerTwo = new Spieler("Gilles", draussen);
 		System.out.println("Der Name des ersten und Spielers ist: " + newPlayer.getName());
 		System.out.println("Der Name des zweiten Spielers ist: " + playerTwo.getName());
-		System.out.println("Der zweite Spieler befindet sich momentan an folgendem Ort: " + playerTwo.getPosition());
+		System.out.println("Der zweite Spieler befindet sich momentan an folgendem Ort: " + playerTwo.getRaum());
 
 	}
 
