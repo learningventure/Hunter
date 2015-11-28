@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @author Felix Bello, Gilles Brunner
@@ -9,6 +9,7 @@ public class Hunter {
 
 
 	public static void main(String[] args) {
+
 		// Scanner for Reading Console Input
 		Scanner sc = new Scanner(System.in);
 		String eingabe;
