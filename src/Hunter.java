@@ -58,11 +58,14 @@ public class Hunter {
 			System.out.print("Du befindest dich jetzt im Raum: " + newPlayer.getPosition() + " was möchtest du nun tun?");
 			break;
 		case "south":
-			// Set new position of Player
+			System.out.print("Es gibt südlich keinen Ausgang!");
+			break;
 		case "east":
-			// Set new position of Player
+			System.out.print("Es gibt östlich keinen Ausgang!");
+			break;
 		case "west":
-			// Set new position of Player
+			System.out.print("Es gibt westlich keinen Ausgang");
+			break;
 		case "quit":
 			System.exit(0);
 		default:
