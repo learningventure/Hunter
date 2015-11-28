@@ -1,2 +1,7 @@
 bin/*.class
+<<<<<<< HEAD
+=======
+src/*.class
+src/*.project
+>>>>>>> 47170eb59ae5021748e4a716e55cc880a46fbbe1
 *.class
